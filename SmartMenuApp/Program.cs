@@ -18,7 +18,7 @@ namespace SmartMenuApp
         private void Run()
         {
             SmartMenu menu = new SmartMenu();
-            menu.LoadMenu(System.IO.Path.GetFullPath(@"..\..\..\..\SmartMenuLibrary\SmartMenuLibrary\MenuSpec.txt"));
+            menu.LoadMenu(@"MenuSpec.txt");
             menu.Activate();
         }
     }
