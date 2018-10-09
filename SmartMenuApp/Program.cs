@@ -7,7 +7,7 @@ using SmartMenuLibrary;
 
 namespace SmartMenuApp
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -18,7 +18,7 @@ namespace SmartMenuApp
         private void Run()
         {
             SmartMenu menu = new SmartMenu();
-            menu.LoadMenu("MenuSpec.txt");
+            menu.LoadMenu(System.IO.Path.GetFullPath(@"..\..\..\..\SmartMenuLibrary\SmartMenuLibrary\MenuSpec.txt"));
             menu.Activate();
         }
     }
