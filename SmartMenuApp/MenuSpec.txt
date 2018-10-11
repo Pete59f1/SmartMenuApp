@@ -1,9 +1,9 @@
 ﻿Spec Dansk version:
 Vælg noget eller 0 for at afslutte
-1. Beregn areal og omkreds af rektangel;1
-2. Beregn talsum;2
-3. Beregn diverse udregninger;3
-4. Konverter Fahrenheit & Celsius;4
+1. DoThis;1
+2. DoThat;2
+3. DoSomething;3
+4. GetTheAnswerToLifeTheUniverseAndEverything;4
 English version:
 Choose something or 0 to stop program
 1. Calculate area & circumference of rectangle
